@@ -1,0 +1,174 @@
+body {
+	background-repeat: no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-image: url(Pxlart.gif);
+	background-attachment: fixed;
+}
+.Logo{
+	height: 30vh;
+	width: 50vw;
+}
+#eye{
+	height: 16.4vh;
+	width: 10.417vw;
+	margin-left: 9vw;
+	margin-top: 6.5vh;
+	float:left;
+}
+#ban{
+	height: 30vh;
+	width: 25vw;
+	margin-left:-12vw
+}
+.links{
+	list-style-type: none;
+	margin: auto auto;
+	padding: 0;
+	display:inline-block;
+}
+li{
+	float: left;
+}
+.navbar{
+	background-color:#2A0861;
+	overflow: hidden;
+	font-size: 1.563vw;
+	margin-top: -6.481vh;
+	height:5.8vh;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.icons{
+	float:right;
+	list-style-type:none;
+	margin-top:0vw;
+	display:block;
+}
+li a.unactive{
+	display: block;
+	padding: 1.2vh 3vw;
+	background-color:#2A0861;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+}
+li a.active{
+	display: block;
+	padding: 1.2vh 3vw;
+	background-color:#2A0861;
+	text-decoration: none;
+	background:#5F0BEA;
+	font-family: "Courier New", Courier, monospace;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+li img.pic{
+	width:2.396vw;
+	height:2.396vw;
+	display: block;
+	background-color:#2A0861;
+	text-decoration: none;
+	float:right;
+}
+li img.others{
+	width:2.396vw;
+	height:2.396vw;
+	display: block;
+	background-color:#2A0861;
+	float:right;
+	text-decoration: none;
+}
+li img.others:hover{
+	background-color: #111;
+}
+li img.pic:hover{
+	background-color: #111;
+}
+li img#fb{
+	margin-left:-0.1vw;
+	padding:.2vh
+}
+li img#insta{
+	width:1.823vw;
+	height:1.823vw;
+	margin-top:0vh;
+	margin-right:0w;
+	padding: 1vh
+}
+img#twitter{
+	margin-top:0vh;
+	padding:.2vh
+}
+#wrapper{
+	border: 2px solid black;
+	background: #2A0861;
+	margin: 0 auto;
+	width: 75vw;
+	padding-bottom:3vw;
+	margin-top:10vh;
+	overflow:hidden;
+}
+#intro{
+	color:white;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	margin-top: 0;
+	text-align: center;
+	font-size:2.7vw;
+}
+.content{
+	color:white;
+	margin-left: 4vw;
+	margin-right: 4vw;
+	margin-top: 0;
+	text-align: justify;
+	text-indent:2vw;
+}
+.smolwrapper{
+	margin-left: 5vw;
+	margin-right: 5vw;
+	color: white;
+}
+h3{
+	color: white;
+	font-size:2vw;
+}
+.smolwrapper img{
+	width: 15vw;
+	height:15vw;
+	margin-top:2vh;
+	float:left;
+	margin-left:3vw;
+}
+#uno, #dos, #tres, #quatro{
+	height:100%;
+	overflow: hidden;
+	height: 32vh;
+}
+#dude1, #dude2, #dude3, #dude4{
+	margin-top:-1.7vh;
+}
+.cont{
+	width:45vw;
+	float:right;
+	height:31.5vh;
+}
+p{
+	text-indent:2vw;
+	font-size:1.3vw;
+}
+#who{
+	width:27vw;
+	height:19.8vh;
+}
+.commnc img{
+	width:30vw;
+	height:15vh;
+}
+hr{
+	border-color:black;
+	img class="mc" src="sonyins.jpg">
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<Head>
+	<title>FAQs</title>
+		<link rel="stylesheet" type="text/css" href="faq2.css">
+</head>
+<body>
+	<center>
+		<div class="Logo">
+			<a href="hi - Copy.html"><img id="ban"src="LOGO6.png"></a>
+			<a href="hi - Copy.html"><img id="eye"src="logo.png"></a>
+		</div>
+	</center>
+	<nav class="navbar navbar-expand-xl">
+		<ul class="links">
+			<li><a class="unactive" style="text-decoration: none; color: white" href="hi - Copy.html">Home</a></li>
+			<li><a class="unactive" style="text-decoration: none; color: white" href="about.html">About Us</a></li>	
+			<li><a class="unactive" style="text-decoration: none; color: white" href="tech.html">Technology</a></li>	
+			<li><a class="active" style="text-decoration: none; color: white" href="faq.html">FAQs</a></li>
+			<li><a class="unactive" style="text-decoration: none; color: white" href="contact.html">Contact Us</a></li>
+		</ul>
+		<ul class="icons">
+			<li><a href="https://twitter.com/COMMnCme?s=09"><img class ="pic" id="twitter" src="twitter.png"></a></li>
+			<li><a href="https://www.facebook.com/COMMnC-101382531240508/"><img class="others" id="fb" src="fb.png"></a></li>
+			<li><a href="https://www.instagram.com/commnc/?igshid=uefdwbxv8xh2"><img class="others" id="insta" src="insta.png"></a></li>	
+		</ul>
+	</nav>
+	<div id="wrapper">
+	<h1>FAQs</h1>
+	<div id="smolwrap">
+		<button class="collapsible">What is COMMNC’s objectives? </button>
+		<div class="content">
+			<p>COMMNC was created with a goal to become a central source for information regarding the latest and trending news in the gaming world.</p>
+		</div>
+		<button class="collapsible"> How can we contact COMMNC?</button>
+		<div class="content">
+			<p>You can contact us through our social media. But for formal customer support and business inquiries, please contact us through our gmail account [INSERT]. You may also contact us through our telephone number [INSERT]</p>
+		</div>
+		<button class="collapsible">Why become a COMMNC member?</button>
+		<div class="content">
+			<p>It’s easy to create an account, it won’t take you more than a few minutes. You will be given full access to news articles, be able to participate and post in the forums, and be a recipient of our monthly newsletter of reliable gaming news.</p>
+		</div>		
+		<button class="collapsible">Can I post news?</button>
+		<div class="content">
+			<p>Only the staff of COMNC are permitted to post news articles. But, as a member, you can submit news tips and suggestions through our gmail with the subject [NEWS SUBMISSION]. It will be taken under consideration by our writers.</p>
+		</div>
+	</div>
+
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+				coll[i].addEventListener("click", function() {
+					this.classList.toggle("active2");
+					var content = this.nextElementSibling;
+					if (content.style.maxHeight){
+						content.style.maxHeight = null;
+					} else {
+						content.style.maxHeight = content.scrollHeight + "px";
+					} 
+				});
+			}
+		</script>
+	</div>
+</body>
+</html>

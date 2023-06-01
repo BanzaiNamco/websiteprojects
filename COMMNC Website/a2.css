@@ -1,0 +1,136 @@
+body {
+	background-repeat: no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-image: url(Pxlart.gif);
+	background-attachment: fixed;
+}
+.Logo{
+	height: 30vh;
+	width: 50vw;
+}
+#eye{
+	height: 16.4vh;
+	width: 10.417vw;
+	margin-left: 9vw;
+	margin-top: 6.5vh;
+	float:left;
+}
+#ban{
+	height: 30vh;
+	width: 25vw;
+	margin-left:-12vw
+}
+.links{
+	list-style-type: none;
+	margin: auto auto;
+	padding: 0;
+	display:inline-block;
+}
+li{
+	float: left;
+}
+.navbar{
+	background-color:#2A0861;
+	overflow: hidden;
+	font-size: 1.563vw;
+	margin-top: -6.481vh;
+	height:5.8vh;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.icons{
+	float:right;
+	list-style-type:none;
+	margin-top:0vw;
+	display:block;
+}
+li a.unactive{
+	display: block;
+	padding: 1.2vh 3vw;
+	background-color:#2A0861;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+}
+li a.active{
+	display: block;
+	padding: 1.2vh 3vw;
+	background-color:#2A0861;
+	text-decoration: none;
+	background:#5F0BEA;
+	font-family: "Courier New", Courier, monospace;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+li img.pic{
+	width:2.396vw;
+	height:2.396vw;
+	display: block;
+	background-color:#2A0861;
+	text-decoration: none;
+	float:right;
+}
+li img.others{
+	width:2.396vw;
+	height:2.396vw;
+	display: block;
+	background-color:#2A0861;
+	float:right;
+	text-decoration: none;
+}
+li img.others:hover{
+	background-color: #111;
+}
+li img.pic:hover{
+	background-color: #111;
+}
+li img#fb{
+	margin-left:-0.1vw;
+	padding:.2vh
+}
+li img#insta{
+	width:1.823vw;
+	height:1.823vw;
+	margin-top:0vh;
+	margin-right:0w;
+	padding: 1vh
+}
+img#twitter{
+	margin-top:0vh;
+	padding:.2vh
+}
+.ns {
+	margin: 0 auto;
+	width:56.25vw;
+	height:50vh;
+}
+#pic{
+	width:28.125vw;
+	height:62vh;
+	margin: 0 auto;
+	margin-left: 14.0625vw;
+}
+.Content {
+	background-color: #2A0861;
+	width:75vw;
+	margin:0 auto;
+	border: 2px solid black;
+	margin-top:5vh;
+}
+h1{
+	text-align: center;
+	font-size:3.5vw;
+	color: white;
+	margin-right:2vw;
+	margin-left: 2vw;
+}
+p{
+	padding: 1vh;
+	font-size: 1.4vw;
+	text-align: justify;
+	color:white;
+	text-indent: 3vw;
+}
